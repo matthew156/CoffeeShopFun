@@ -1,4 +1,4 @@
-package com.coffeeShop.coffee.Controller;
+package com.coffeeShop.coffee.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
