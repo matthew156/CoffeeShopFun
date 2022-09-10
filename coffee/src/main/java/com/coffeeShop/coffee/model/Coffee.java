@@ -7,11 +7,11 @@ public class Coffee {
 
     private String name;
     private CoffeeTypes coffeeTypes;
-    private float price;
+    private double price;
     private boolean cream;
     private CoffeeSize coffeeSize;
 
-    public Coffee(String name, CoffeeTypes coffeeTypes, float price, boolean cream, CoffeeSize coffeeSize) {
+    public Coffee(String name, CoffeeTypes coffeeTypes, double price, boolean cream, CoffeeSize coffeeSize) {
         this.name = name;
         this.coffeeTypes = coffeeTypes;
         this.price = price;
@@ -38,11 +38,11 @@ public class Coffee {
         this.coffeeTypes = coffeeTypes;
     }
 
-    public float getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(float price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 
